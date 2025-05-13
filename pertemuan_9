@@ -1,5 +1,5 @@
 data()
 data(package = .packages(all.available = TRUE))
 data(mtcars)
-head(mtcars)
-tail(mtcars)
+head(mtcars,10)
+tail(mtcars,5)
