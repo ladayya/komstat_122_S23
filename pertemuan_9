@@ -2,4 +2,4 @@ data()
 data(package = .packages(all.available = TRUE))
 data(mtcars)
 head(mtcars,10)
-
+str(mtcars)
