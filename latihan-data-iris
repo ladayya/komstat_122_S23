@@ -1,0 +1,4 @@
+data(iris)
+summary(iris)
+head(iris,5)
+tail(iris,5)
