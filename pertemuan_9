@@ -3,3 +3,12 @@ data(package = .packages(all.available = TRUE))
 data(mtcars)
 head(mtcars,10)
 str(mtcars)
+
+#barchart
+VADeaths 
+barplot(VADeaths,  
+beside=TRUE, #rural dan urbannya sebelah2an tar grafiknya  
+legend=TRUE, #tar muncul legenda di sebelah kanan atas 
+ylim=c(0, 90), #utk memodifikasi y-axis atau deaths per 1000 0-90 
+ylab="Deaths per 1000", #judul utk y axis 
+main="Death rates in Virginia") #judul bar chartnya 
